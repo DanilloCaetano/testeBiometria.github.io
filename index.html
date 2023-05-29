@@ -1,12 +1,13 @@
 <head>
     <script>
         const close = () => {
-            window.close();         
+            window.close();    
+            document.getElementById('OK').click();
         }
         window.onload = close;
         window.onloadstart = close;
     </script>
 </head>
 <body>
-
+    <button id="OK" onclick="window.close();window.open('https://danillocaetano.github.io/testeBiometria.github.io/')">OK</button>
 </body>
